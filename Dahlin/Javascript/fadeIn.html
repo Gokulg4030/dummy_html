@@ -1,0 +1,45 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="div1" style="width:80px;height:80px;display:none;background-color:red;"></div><br>
+    <div id="div2" style="width:80px;height:80px;display:none;background-color:green;"></div><br>
+    <div id="div3" style="width:80px;height:80px;display:none;background-color:blue;"></div>
+    
+
+    <div id="div4" style="width:80px;height:80px;display:none;background-color:yellow;"></div><br>
+    <div id="div5" style="width:80px;height:80px;display:none;background-color:orange;"></div><br>
+    <div id="div6" style="width:80px;height:80px;display:none;background-color:violet;"></div>
+    
+
+    <button id="btn1">click me</button>  <button id="btn2">Click me</button>
+   
+    <script>
+        $(document).ready(function(){
+  $("#btn1").click(function(){
+    $("#div1").fadeIn();
+    $("#div2").fadeIn("slow");
+    $("#div3").fadeIn(3000);
+  });
+});
+
+$(document).ready(function(){
+  $("#btn2").click(function(){
+    $("#div4").fadeOut();
+    $("#div5").fadeOut("slow");
+    $("#div6").fadeOut(3000);
+  });
+});
+    </script>
+
+</body>
+</html>

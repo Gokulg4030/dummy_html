@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+h1{
+    margin: 0;
+}
+
+.container{
+    background-color: orange;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center ;
+    
+    
+}
+
+.one,.two,.three{
+    width: 300px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 1px solid white;
+    text-align: center;
+    padding: 5px;
+    
+}

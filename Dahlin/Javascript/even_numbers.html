@@ -1,0 +1,45 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Even numbers</title>
+</head>
+<body>
+
+    <style>
+        body{
+            text-align: center;
+            background-color: aqua;
+
+        }
+        .even-number{
+            margin-right: 10px;
+
+        }
+    </style>
+    <h1>Even Numbers</h1>
+    <div id="evenNumbers"></div>
+
+    <script>
+        function printEvenNumbers(limit)
+        {
+            var evenNumbersDiv = document.getElementById("evenNumbers");
+            evenNumbersDiv.innerHTML += "<p>The numbers between 0 and" +" "+ limit +" "+ "are:</P>";
+
+                for(let i=0; i<=limit; i+=2){
+                    evenNumbersDiv.innerHTML += "<span class='even-number'>" + i+"</span>";
+                    // console.log(i);
+                }
+   
+        }
+        var limit = 50;
+
+        printEvenNumbers(limit);
+
+    </script>
+</body>
+</html>

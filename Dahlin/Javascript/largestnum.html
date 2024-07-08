@@ -1,0 +1,51 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Largest Element</title>
+</head>
+<body>
+    
+
+<style>
+    body{
+        text-align: center;
+        margin-top: 100px;
+    }
+    .output-container{
+        background-color: aqua;
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 50px;
+
+    }
+</style>
+
+<div class="output-container">
+    <h2>Largest element in an array</h2>
+    <p>The largest element in the array is:<span id="output"></span></p>
+</div>
+
+  <script>
+     let array = [3,6,100,8,4];
+     let max = array[0];
+
+     for(let i=1; i<array.length;i++)
+     {
+        if(array[i] > max)
+        {
+            max = array[i];
+        }
+     }
+
+     document.getElementById('output').textContent=max
+
+  </script>
+
+</body>
+</html>

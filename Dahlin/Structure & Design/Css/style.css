@@ -1,0 +1,42 @@
+
+  .vegetable{
+    background-color: green;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 100px;
+    }
+
+    .fruit{
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 100px;
+    }
+
+    #veg1,#veg2,#veg3{
+    background-color: green;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 100px;
+    }
+    
+    #veg4,#veg2{
+    background-color: yellowgreen;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 100px;
+    }
+
+
+    #fruit1,#fruit2,#fruit3,#fruit4{
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 100px;
+    
+    }

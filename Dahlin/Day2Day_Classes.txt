@@ -1,0 +1,22 @@
+                                                           G-TEC
+							……………………………
+
+
+Day 1 : Introduction of the structure (HTML) & List Items
+Day 2 : Tags and tables in html and started CSS (Internal, Inline & External CSS)
+Day 3 : Classes, Id & div  in html structure and styled it using external CSS
+Day 4 : Forms in html (student registration form) styled it using external CSS
+Day 5 : Audio, Video and IFRAME in html
+Day 6 : Display Grid in html
+Day 7 : Display flex in html
+Day 8 : Created a gallery using flex property in Html 
+Day 9 : Header, Footer and Media Query using html
+Day 10 : Introduction to Bootstrap installation basic concepts and making websites responsive in Bootstrap
+Day 11 : Breakpoints & Grid-systems in Bootstrap (Container, Row & col)
+Day 12 : Adding Buttons Colors using Bootstrap
+Day 13 : Adding Navbar header footer caurosel and cards using Bootstrap
+Day 14 : Started JavaScript Basics (variables & Functions)
+Day 15 : JavaScript conditional statements 
+Day 16 : array (programming)
+Day 17 : continuation of Array and Objects
+Day 18 : Project valuation & Started Jquery

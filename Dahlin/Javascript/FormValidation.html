@@ -1,0 +1,103 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormValidation</title>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    
+
+    <div class="container">
+        <h1>Form Validation</h1>
+        <form id="myform">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+                <span class="error" id="nameError"></span>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Enter your Email">
+                <span class="error" id="emailError"></span>
+
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter your number">
+                <span class="error" id="phoneError"></span>
+
+            </div>
+
+            <input type="submit" value="submit"></input>
+            
+        </form>
+    </div>
+
+
+    <script>
+
+$(document).ready(function(){
+  $('#name, #email, #phone').on('input', function(){
+    var id = $(this).attr('id');
+    var value = $(this).val();
+    var errorId = id + 'Error';
+    var errorMessage = '';
+
+    if (id === 'name') {
+      errorMessage = /^[A-Za-z]+$/.test(value) ? '' : 'Name must contain only alphabets';
+    } else if (id === 'email') {
+      errorMessage = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value) ? '' : 'Invalid email format';
+    } else if (id === 'phone') {
+      errorMessage = /^\d{10}$/.test(value) ? '' : 'Phone number must contain 10 digits and only numbers';
+    }
+
+    $('#' + errorId).text(errorMessage);
+    $('#' + id).prev('label').css('color',errorMessage ? 'red' : 'green');
+    $('#' + id).css('border-color',errorMessage ? 'red' : 'green');
+   
+  });
+
+
+  // Form submitting
+
+  $('#myform').submit(function(event)
+  {
+
+    var isValid = true;
+
+    $('.error').each(function()
+    {
+        if($(this).text() !== '')
+        {
+            isValid = false;
+            return false;
+        }
+    });
+
+    if(!isValid){
+        event.preventDefault();     // This method is commonly used in event handling to prevent the default action 
+    }
+    else{
+        alert('Form submitted successfully');
+    }
+
+  });
+
+
+});
+
+
+
+
+    </script>
+
+</body>
+</html>

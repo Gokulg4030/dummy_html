@@ -1,0 +1,21 @@
+
+
+table{
+    border: 2px solid red ;
+    border-collapse: collapse;
+    background-color: bisque;
+}
+th,td{
+    text-align: center;
+    padding: 10px;
+}
+th{
+    background-color: seagreen;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+}
+td{
+    background-color:aquamarine;
+}

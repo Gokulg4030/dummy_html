@@ -1,0 +1,19 @@
+
+
+    Programming languages
+
+Computer programming languages encompass a wide variety of types,
+
+> Low-Level languages : Assembly language
+> High-Level languages : Python , c , C++, Java, Javascript
+> Web Development : HTML, Css, Javascript, Typescript
+
+Assembly language
+
+   Assembly language is a low-level programming language that is related to machine code.
+   It provides a way to write instructions that a CPU can execute directly, but in a human-readable format.
+
+High-Level language
+
+    It is a type of programming language that abstracts the details of the computer hardware, make it easier for 
+    programmers to read,write, and maintain code.

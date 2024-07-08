@@ -1,0 +1,48 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="display"></div>
+
+    <script>
+        let cars=[];
+
+        function Car()
+          let brand = prompt("Enter the brand of the car:");
+          let model = prompt("Enter the model of the car:");
+          let year = prompt("Enter the year of the car");
+
+          let car ={brand:brand, model:model, year:year};
+
+          cars.push(car);
+          displayCars();
+
+          function displayCars(){
+            let displayDiv = document.getElementById("display");
+            displayDiv.innerHTML +=<h1>Cars:</h1>
+            console.log("cars:");
+            cars.forEach(car=>
+            {
+                console.log(`${car.brand} ${car.model} ${car.year}`);
+                displayDiv.innerHTML +=`<p> ${car.brand} ${car.model} ${car.year}</p>`
+
+            })
+
+          }
+
+
+          
+
+          car();
+
+    </script>
+
+</body>
+</html>

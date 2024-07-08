@@ -1,0 +1,130 @@
+
+
+                                        Javascript
+
+        
+    Javascript is most popular programming language
+    It is the programming language of the web
+
+
+                                    Javascript Functions
+
+    
+    A Javascript Function is a block of code that can be executed when we called
+
+
+                                         Javascript Variables
+
+
+     A Variable is a container that holds data/values . variables are used to store and manipulate data in program
+
+     Variable Declaration
+             - we can declare variables using keywords
+
+            . var : used for Variable declaration in older version of Javascript. But now it's not recommended to use
+            . let : variables declared with 'let' keyword have block scope,(they are limited to the block in which they are defined)
+            . const: used to create constant variables which Variables that cannot be reassigned
+
+
+                                             Data Types
+
+         Javascript has several datatypes:
+
+                1) Primitive data types
+                         . Number : represents numeric values
+                         . String : represents string(textual) data
+                         . Boolean : represents boolean value (true or false)
+                         . Null    : represents null value 
+                         . Undefined : represents undefined value
+                         . Symbol   : represents symbolic value
+
+                2) Non-primitive data type
+                        . Object : collection of key-value pairs. Object can hold various data types & Functions
+                        . Array : Represents a list of elements,typically same type
+                        . Function : Represents a block of code that can be executed when we called
+
+
+      concatenating strings (+)
+
+       in Javascript the '+' symbol is used for concatenating strings as well as addition when used with numbers 
+       (joins two or more strings together)
+
+
+                                             Conditional Statements
+
+        Conditional Statements allow you to make decisions in our code based on conditions. 
+        if,else if,else
+
+        syntax:
+
+        if (condition){
+                     //code to execute if the condition is true
+          }
+          else if (next condition){
+                     //code to execute if the first condition was false and next condition is true
+           }
+           else{
+                     //code to execute if all previous conditions were false
+           }
+
+                        
+                                        Loops in js
+
+        
+        Loops are used to repeat a block of code multiple times until a certain condition met.
+        For loop, While loop, Do..while loop
+        for loop :
+            - Syntax : for(initialization; condition; increment/decrement)
+                                {
+                                         // code to execute
+                                }
+
+        While loop:
+        - Syntax : while(condition){
+                //code to execute
+        }
+
+        Do..While loop
+        - Syntax : do{
+                   //code to execute
+               }while(condition);
+
+
+
+                                        Array in js
+
+        
+        an array is a data structure that stores a list of elements. hold various data types : numbers, strings, 
+        objects and nested array(array inside an another array)
+
+        let newarray = [1,2,3,4,5];
+        array[0]=1
+        array[1]=2........
+
+
+
+                                        Objects in Javascript
+
+
+        It is a datatype that allows us to store collection of key-value pairs
+
+        syntax - let person{
+                name:"John",
+                age:30,
+                city:"New York"
+              };
+        }
+
+
+
+                                        JQuery
+
+        JQuery is a Javascript library that makes it easier to interact with HTML elements
+        handle events animations.
+
+                JQuery library contains:
+                > HTML/DOM manipulation
+                > CSS manipulation
+                > Effects & animations
+                > Ajax
+                > Utilities

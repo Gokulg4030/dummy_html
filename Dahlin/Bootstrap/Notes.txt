@@ -1,0 +1,48 @@
+                                            Bootstrap
+
+The most popular HTML, CSS and JavaScript framework for developing, mobile first website
+It is a front-end framework used for easier amd faster web development
+latest version - V5
+
+                                    Responsive using Breakpoints
+                                                
+Sm => for small devices(phones) this applies to screens that are 576px wide or wider
+md => for medium devices(tablets) this applies to screens that are 786px wide or wider
+lg => for large devices(large desktops)this applies to screens that are 992px wide or wider
+xl => extra large devices (extra large desktops) this applies to screens that are 1200px wide or wider
+xxl=> extra large devices (extra large desktops) this applies to screens that are 1400px wide or wider
+
+
+
+                                Layout:Grid System
+
+=> one of the most important concept in Bootstrap
+=> Bootstrap grid system uses a series of containers, rows and columns to layout and align content. It’s build with flexbox and is fully   
+   responsive
+=> Main parts of the Bootstrap grid systems are:
+     . containers
+     . rows
+     . columns
+
+
+                                   Borders
+
+=> Additive border
+   . Border
+   . border-top
+   . border-bottom
+   . border-start
+   . border-end
+=>  Removes border
+   . border-0
+=> rounded border rounded-top rounded-end rounded-start rounded-bottom rounded-circle rounded-pill
+=> Border styles
+
+
+                                 Position Class
+
+=> Position-static : Default value. Positions elements staticly
+=> position-relative : Default value. Positions elements relative to their normal flow
+=> position-absolute : Absolutely positioned. It removes them from the normal flow and positions them relative to the nearest positioned 
+=> position-fixed: Default value. Positions elements at fixed position in viewport, ignores margins and nesting.
+=> position-sticky: Default value. Positions elements stickily relative to the viewport

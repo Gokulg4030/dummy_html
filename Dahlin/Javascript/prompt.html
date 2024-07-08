@@ -1,0 +1,57 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            text-align: center;
+        }
+    </style>
+  <h1>Area of Rectangle</h1>
+  <p>Enter the length and width of the rectangle</p>
+  <label for="">Length:</label>
+  <input type="text" id="lengthInput"><br>
+  <label for="">Width:</label>
+  <input type="text" id="widthInput"><br><br>
+  <button onclick="Calculate()" >Calculate</button>
+
+
+    <script>
+
+       function Calculate(){
+  
+        //prompt the user values
+        let length = parseFloat(document.getElementById("lengthInput").value);
+        let width = parseFloat(document.getElementById("widthInput").value);
+        
+        // check if both inputs are valid
+
+        if(!isNaN(length) && !isNaN(width))
+        {
+            // calculate the area using the formula
+            let area = length * width;
+            
+            // display the result in an alert box
+
+            alert("The area of the rectangle is:"+area);
+            console.log(area);
+        }
+        else{
+            alert("Please enter a number");
+        }
+
+
+
+       }
+
+    </script>
+
+</body>
+</html>

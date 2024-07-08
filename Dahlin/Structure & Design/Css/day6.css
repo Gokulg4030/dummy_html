@@ -1,0 +1,21 @@
+ p{
+     border-style: solid;
+    border-color: brown;
+    /* border-top-width: 0;
+    border-bottom-style: none; */
+    /* padding-top: 10px;
+    padding-left:  20px;
+    padding-right: 30px;
+    padding-bottom: 50px; */
+    /* padding: 10px 20px 30px 40px; */
+    text-align: left;
+    font-family:"Jersey 15", sans-serif;
+
+}
+
+.margin{
+    margin-top: 50px;
+    margin-bottom: 80px;
+    margin-right: 50px;
+    margin-left: 50px;
+}

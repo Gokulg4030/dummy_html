@@ -1,0 +1,95 @@
+
+
+
+
+
+    HTML colors
+    .............
+
+    color name 
+       Eg: red,tomato,gold pink
+    
+    RGB (Red,green,blue)
+       Eg: rgb(200,100,115)
+
+    HEX - Hexadecimal value
+        Eg: #ffaacc 
+
+    Hsl - Hue , saturation, Lightness values
+        Eg: hsl(10,90%,65%)
+     
+    RGBA - RGB with Alpha channels
+        Eg:rgba(200,100,115,0.5)
+
+    
+    Div Elements
+        It is a block level container, used to group elements for styling and javascript functionalities
+
+
+    Class Elements
+         class is an attribute that can be added to an element to apply specific style or behavior to the element
+        
+        
+    HTML id
+         A unique identifier assigned to one element within a document. Id attribute should only be used once per html page
+
+    Iframe 
+        <iframe> element is used to embed another document within the current html page  
+
+
+    Html Forms
+       Html forms are used to collect user input =>it allows user to enter data for submission to the server
+        
+        
+      
+      
+
+css (cascading style sheet)
+
+1. Inline css
+   - style attribute inside the html
+2. Internal CSS:
+    - <style> element inside the tag
+3. External CSS:
+    - <link> element to link an External css file
+
+Box Model
+    . padding
+    . border
+    . margin
+
+Display
+   . Flex - used to create layouts ,we can create a compltete website using flex . Flex is one dimentional
+
+
+
+      
+      
+        TASK 1
+  day 1
+    1. main heading - Taj Mahal
+     .color set using RGB
+     .Underlined text
+    
+    2. An image of Taj Mahal with a specified height and width
+
+    3. A paragraph describing its history with atleast one italic,bold,marked(change marked color) with a background color using HEX
+
+    4. Another paragraph with bold word should be marked as red.
+
+
+    day 2
+
+    create an html table should contains atleast 5 rows and 4 columns
+    each row should represents a different products
+    1 st row contains heading productid,productname,price and availability
+      row- class contains same color samefontsize same background same font family
+
+      col- id contains same color samefontsize same background same font family
+
+
+
+
+
+
+    
