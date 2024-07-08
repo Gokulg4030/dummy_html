@@ -1,0 +1,74 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+   <div style="background-color: aqua;">
+    <form action="">
+        <h1>Registration Form</h1>
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" id="fname">
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname" id="lname">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <label for="pswd">Password:</label>
+        <input type="password" name="pswd" id="pswd">
+
+        <div style="background-color: rgb(4, 130, 130);">
+            <h4>Gender:</h4>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="male">FeMale</label>
+            <input type="radio" name="gender" id="others">
+            <label for="male">Others</label>
+        </div>
+
+        <div>
+            <h4>Hobbies:</h4>
+            <input type="checkbox" name="game" id="football">
+            <label for="football">Football</label>
+            <input type="checkbox" name="game" id="criket">
+            <label for="cricket">Cricket</label>
+            <input type="checkbox" name="game" id="basketball">
+            <label for="basketball">Basketball</label>
+            <input type="checkbox" name="game" id="editing">
+            <label for="Editing">Editing</label>
+        </div>
+
+        <div style="background-color: rgb(4, 130, 130);">
+            <h4>State:</h4>
+            <select name="state" id="state">
+                <option value="kerala">Kerala</option>
+                <option value="TamilNadu">Tamilnadu</option>
+                <option value="karnataka">Karnataka</option>
+                <option value="goa">Goa</option>
+            </select>
+        </div>
+
+        <div>
+            <h4>Address</h4>
+            <label for="address">Address</label><br>
+            <textarea name="address" id="address" cols="30" rows="5"></textarea>
+        </div>
+
+        <h4>Upload Photo</h4>
+        <label for="photo">upload:</label>
+        <input type="file" name="photo" id="photo">
+
+        <input type="button" value="register" style="background-color: blue; color: white;">
+
+        
+
+    </form>
+   </div>
+</body>
+</html>

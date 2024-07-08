@@ -1,0 +1,5 @@
+
+ Day 1 - 05/06/24 : Fullstack Webinar 
+ Day 2 - 10/06/24 : Html tags, Elements & attributes
+ Day 3 - 11/06/24 : Html styles, text-formatting, html colors
+ Day 4 - 12/06/24 : Html colors, basic Css

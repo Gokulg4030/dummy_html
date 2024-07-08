@@ -1,0 +1,59 @@
+
+
+        HTML
+
+ . HTML stands for Hyper Text Markup language
+ . HTML is the standard markup language for creating webpages
+ . It is the structure of a webpages
+ . It is a series of elements
+ . latest version is html5
+
+ Page structure:   
+        <html>
+         <head>
+            <title>page title</title>
+         </head>
+         <body>
+            <h1>This is a heading</h1>
+            <p>This is a paragraph</p>
+         </body>
+        </html>
+
+ 1. Html Attributes
+    . All HTML elements can have attributes
+    . Attributes provide additional information about elements
+      * href attribute : the <a> tag defines the hyperlink . the href attribute specifies the URL of the page the link goes to
+      * src attribute : the <img> tag is used to embed an image in an HTML page. The src attribute specifies the path of the image.
+      * alt attribute : alt attribute for the <img> tag specifies an alternate text for an image.
+      * Height & Width attribute : the <img> tag should also contain the Width & Height attribute which specifies the width and Height of the 
+        image.
+      * Style attribute : It is used to add styles to an element (color,fontsize..)
+      * Title attribute : It defines some extra information about an element
+
+
+   2. Html Colors
+
+      * color name : red,tomato,pink,gold
+      * RGB : Red, Green, Blue values
+               eg:rgb(200,100,115);
+      
+      * HEX : Hexadecimal values
+               eg:#e30bce
+
+      * HSL : Hue, Saturation, Lightness values
+               eg:hsl(10,90%,65%)
+
+      * RGBA : RGB with alpha channel
+               eg:rgba(200,100,115,0.5)
+
+      * HSLA : HSL with Alpha channel
+               eg:hsla(10,90%,65%,0.5)
+
+               
+
+         CSS (Cascading Styling Sheets)
+
+      It is used to format the layout of a webpage, with css you can control the color, font, font-size, and spacing between the elements
+      . Inline css  - by using the style attribute inside HTML elements
+      . Internal css - by using a <style> element in the <head> section
+      . External Css - by using a <link> element to link to an External CSS file
